@@ -1,0 +1,7 @@
+﻿node_modules/
+.env
+assets/
+logs/
+.data/
+Database.env
+image.png.url
