@@ -1,3 +1,4 @@
+﻿# Creates .env from Discord credentials (BOT_TOKEN, GUILD_IDS, ALLOWED_USERS)
 # One-time setup: creates .env from your Discord credentials
 $envPath = Join-Path $PSScriptRoot ".env"
 
