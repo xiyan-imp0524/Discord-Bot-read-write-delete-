@@ -1,17 +1,17 @@
-{
-  "name": "discord-clear-bot",
-  "version": "1.0.0",
-  "description": "Discord bot that clears chat history",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "start:daemon": "node run-forever.js"
-  },
-  "dependencies": {
-    "@discordjs/voice": "^0.18.0",
-    "discord.js": "14.14.1",
-    "dotenv": "16.4.5",
-    "node-notifier": "^10.0.1",
-    "opusscript": "^0.1.1"
-  }
+﻿{
+    "name":  "discord-clear-bot",
+    "version":  "1.0.0",
+    "description":  "Discord bot for clearing chat, voice playback, notifications, and optional auto-reply",
+    "main":  "index.js",
+    "scripts":  {
+                    "start":  "node index.js",
+                    "start:daemon":  "node run-forever.js"
+                },
+    "dependencies":  {
+                         "@discordjs/voice":  "^0.18.0",
+                         "discord.js":  "14.14.1",
+                         "dotenv":  "16.4.5",
+                         "node-notifier":  "^10.0.1",
+                         "opusscript":  "^0.1.1"
+                     }
 }
