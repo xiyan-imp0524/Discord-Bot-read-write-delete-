@@ -11,3 +11,13 @@ A Discord.js bot for allowed servers and users: clear recent messages, play loca
 | `/stop` | Stop playback and leave the voice channel |
 | `/tell` | Notify another user in the notification group |
 | `/auto` | Enable or disable auto-reply for users listed in `AUTO_REPLY_USERS` |
+
+## Requirements
+
+- Node.js 18+ recommended
+- A Discord application/bot from the Discord Developer Portal
+- Bot invited to your server with permissions for messages (and voice if you use /play)
+
+### Discord intents
+
+Enable Message Content Intent in the Developer Portal when using auto-reply or notifications, and set `MESSAGE_CONTENT_INTENT=true` in .env.
