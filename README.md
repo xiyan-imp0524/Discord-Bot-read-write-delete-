@@ -36,3 +36,16 @@ Edit .env with your token and IDs, then:
 ```bash
 npm start
 ```
+
+Auto-restart on crash:
+
+```bash
+npm run start:daemon
+```
+
+### Windows helpers
+
+```powershell
+.\setup.ps1
+.\start-bot.ps1
+```
