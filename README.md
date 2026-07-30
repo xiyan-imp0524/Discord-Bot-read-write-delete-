@@ -72,3 +72,16 @@ Copy from .env.example. Never commit .env.
 ### Finding Discord IDs
 
 In Discord: **User Settings → Advanced → Developer Mode**, then right-click a server or user → **Copy Server ID** / **Copy User ID**.
+
+## Project layout
+
+```
+index.js           # Bot entry, slash commands
+reply.js           # Auto-reply helpers
+notify.js          # User notifications
+conversationLog.js # Optional session logs
+autoReplyState.js  # Persists /auto on/off
+run-forever.js     # Restart wrapper
+songs/             # Audio files for /play
+.env.example       # Env template
+```
