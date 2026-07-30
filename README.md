@@ -85,3 +85,13 @@ run-forever.js     # Restart wrapper
 songs/             # Audio files for /play
 .env.example       # Env template
 ```
+
+## Permissions
+
+For /cute, the bot needs in the channel:
+
+- View Channel
+- Read Message History
+- Manage Messages
+
+For /play, the bot needs Connect and Speak in the voice channel.
