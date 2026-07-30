@@ -95,3 +95,13 @@ For /cute, the bot needs in the channel:
 - Manage Messages
 
 For /play, the bot needs Connect and Speak in the voice channel.
+
+## Deploy / host notes
+
+This is a long-running Node process (not a static site). Typical options:
+
+1. **VPS / local machine** — `npm install` + `npm run start:daemon`
+2. **Process manager** — PM2: `pm2 start index.js --name discord-clear-bot`
+3. **GitHub** — push source (`.env` is gitignored); set secrets on your host, not in the repo
+
+Keep `BOT_TOKEN` and `OPENAI_API_KEY` out of git. Use `.env.example` as the public template.
