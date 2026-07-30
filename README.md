@@ -21,3 +21,18 @@ A Discord.js bot for allowed servers and users: clear recent messages, play loca
 ### Discord intents
 
 Enable Message Content Intent in the Developer Portal when using auto-reply or notifications, and set `MESSAGE_CONTENT_INTENT=true` in .env.
+
+## Quick start
+
+```bash
+git clone <your-repo-url>
+cd <repo-folder>
+npm install
+cp .env.example .env
+```
+
+Edit .env with your token and IDs, then:
+
+```bash
+npm start
+```
