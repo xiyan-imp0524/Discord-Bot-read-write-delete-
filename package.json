@@ -10,6 +10,12 @@
     "start": "node index.js",
     "start:daemon": "node run-forever.js"
   },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "bot",
+    "slash-commands"
+  ],
   "dependencies": {
     "@discordjs/voice": "^0.18.0",
     "discord.js": "14.14.1",
