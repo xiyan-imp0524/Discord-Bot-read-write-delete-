@@ -1,3 +1,4 @@
+/** Restart index.js automatically if the bot process exits. */
 const { spawn } = require('child_process');
 const path = require('path');
 
