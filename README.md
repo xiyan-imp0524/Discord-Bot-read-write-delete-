@@ -24,7 +24,7 @@ Also supports targeted desktop/OS notifications between `NOTIFY_USERS`, and opti
 
 Enable these Privileged Gateway Intents in the Developer Portal if you use the related features:
 
-- **Message Content Intent** — set `MESSAGE_CONTENT_INTENT=true` in `.env` when you need message content for auto-reply / notifications
+- **Message Content Intent** â€” set `MESSAGE_CONTENT_INTENT=true` in `.env` when you need message content for auto-reply / notifications
 
 ## Quick start
 
@@ -74,7 +74,7 @@ Copy from `.env.example`. Never commit `.env`.
 
 ### Finding Discord IDs
 
-In Discord: **User Settings → Advanced → Developer Mode**, then right-click a server or user → **Copy Server ID** / **Copy User ID**.
+In Discord: **User Settings â†’ Advanced â†’ Developer Mode**, then right-click a server or user â†’ **Copy Server ID** / **Copy User ID**.
 
 ## Project layout
 
@@ -86,6 +86,7 @@ conversationLog.js # Optional session logs
 autoReplyState.js  # Persists /auto on/off
 run-forever.js     # Restart wrapper
 songs/             # Audio files for /play
+songs/README.md     # How to add tracks
 .env.example       # Env template
 ```
 
@@ -103,9 +104,9 @@ For `/play`, the bot needs Connect and Speak in the voice channel.
 
 This is a long-running Node process (not a static site). Typical options:
 
-1. **VPS / local machine** — `npm install` + `npm run start:daemon`
-2. **Process manager** — [PM2](https://pm2.keymetrics.io/): `pm2 start index.js --name discord-clear-bot`
-3. **GitHub** — push source (`.env` is gitignored); set secrets on your host, not in the repo
+1. **VPS / local machine** â€” `npm install` + `npm run start:daemon`
+2. **Process manager** â€” [PM2](https://pm2.keymetrics.io/): `pm2 start index.js --name discord-clear-bot`
+3. **GitHub** â€” push source (`.env` is gitignored); set secrets on your host, not in the repo
 
 Keep `BOT_TOKEN` and `OPENAI_API_KEY` out of git. Use `.env.example` as the public template.
 
