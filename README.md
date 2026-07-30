@@ -49,3 +49,15 @@ npm run start:daemon
 .\setup.ps1
 .\start-bot.ps1
 ```
+
+## Environment variables
+
+Copy from .env.example. Never commit .env.
+
+| Variable | Required | Description |
+|----------|----------|-------------|
+| BOT_TOKEN | Yes | Bot token from Discord Developer Portal |
+| GUILD_IDS | Yes | Comma-separated server IDs where the bot may run |
+| ALLOWED_USERS | Yes | Comma-separated user IDs allowed to use commands |
+| NOTIFY_USERS | No | Users in the notification group |
+| AUTO_REPLY_USERS | No | Users who receive automatic replies when /auto is on |
